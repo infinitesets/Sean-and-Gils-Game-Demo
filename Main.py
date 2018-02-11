@@ -123,11 +123,12 @@ class Game:
             self.draw_text("212-PIMPSQUAD", 100, WHITE, 400, 400)
         elif self.frame_3 == True:
             self.screen.fill(GREEN)
-            self.draw_text("BUY RAMEN", 50, LIGHT_BLUE, 450, 50)
-            self.draw_text("BUY RAMEN", 50, LIGHT_BLUE, 500, 100)
-            self.draw_text("BUY RAMEN", 50, LIGHT_BLUE, 500, 150)
-            self.draw_text("BUY RAMEN", 50, LIGHT_BLUE, 500, 200)
-            self.draw_text("BUY RAMEN", 50, LIGHT_BLUE, 400, 250)
+            self.draw_text("BUY RAMEN", 50, RED, 450, 50)
+            self.draw_text("BUY RAMEN", 50, WHITE, 500, 100)
+            self.draw_text("BUY RAMEN", 50, WHITE, 500, 150)
+            self.draw_text("BUY RAMEN", 50, WHITE, 500, 200)
+            self.draw_text("BUY RAMEN", 50, BLUE, 400, 250)
+            self.draw_text("312-RA-MEN", 100, BLACK, 400, 400)
         self.all_sprites.draw(self.screen)
         pg.display.flip()
 
