@@ -5,7 +5,7 @@ from os import path
 vec = pg.math.Vector2
 
 img_dir = path.join(path.dirname(__file__), 'img')
-snd_dir = path.join(path.dirname(__file__), 'snd')
+#snd_dir = path.join(path.dirname(__file__), 'snd')
 #song = path.join(snd_dir, 'song.mp3')
 #shoot_sound = path.join(snd_dir, 'Laser_Shoot19.wav')
 
